@@ -1,42 +1,47 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../Styles/Footer.css";
 import { FiTwitter } from "react-icons/fi";
 import { AiFillLinkedin } from "react-icons/ai";
-import { FaGlobeAfrica } from "react-icons/fa";
 
 function Footer() {
+  const year = new Date().getFullYear();
+
   return (
     <div className="footer">
       <div className="footer_container">
         <section className="social-media">
           <div className="social-media-wrap">
-            <small className="website-rights">Tosin © 2022</small>
+            <p>
+              Designed by:{" "}
+              <span className="footer-span">
+                {" "}
+                <a
+                  href="https://www.linkedin.com/in/ekunola-paul-42712b1aa/"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  Ekunola Paul{" "}
+                </a>
+              </span>{" "}
+              ⓒ {year}
+            </p>{" "}
             <div className="social-icons">
-              <Link
-                className="social-icons-link linkedin"
-                to="/"
+              <a
+                href="https://www.linkedin.com/in/ekunola-paul-42712b1aa/"
+                rel="noreferrer"
                 target="_blank"
-                aria-label="Linkedin"
+                className="social-icons-link linkedin"
               >
                 <AiFillLinkedin />
-              </Link>
-              <Link
-                className="social-icons-link twitter"
-                to="/"
+              </a>
+              <a
+                className="social-icons-link website"
+                rel="noreferrer"
+                href="https://twitter.com/PSCON3"
                 target="_blank"
-                aria-label="Twitter"
               >
                 <FiTwitter />
-              </Link>
-              <Link
-                className="social-icons-link website"
-                to="/"
-                target="_blank"
-                aria-label="Website"
-              >
-                <FaGlobeAfrica />
-              </Link>
+              </a>
             </div>
           </div>
         </section>
