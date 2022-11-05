@@ -11,6 +11,7 @@ export default function Counter() {
       <h1 className="counter"> Counter</h1>
       <div className="counter-container">
         <input
+        style={{borderRadius: "5px"}}
           type="text"
           placeholder="Type in a count value..."
           onChange={(e) =>

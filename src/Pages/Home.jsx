@@ -1,5 +1,7 @@
 import React from "react";
 import "../Styles/Home.css";
+import { Typewriter } from "react-simple-typewriter";
+
 
 function Home() {
   const Url =
@@ -9,6 +11,32 @@ function Home() {
       <section className="homePage">
         <h3> AltSchool Second Semester Examination</h3>
         <img src={Url} alt=" alt logo" />
+
+        <h2 className="text-4xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white">
+            Hi, my name is EKUNOLA PAUL
+          </h2>
+
+          <h2 className="text-xl sm:text-4xl font-bold text-white">
+            I am a
+            <span style={{color: "red"}}>
+              <Typewriter
+                loop={3}
+                cursor
+                cursorStyle="_"
+                typeSpeed={70}
+                deleteSpeed={100}
+                delaySpeed={1000}
+                words={[
+                  " Software Engineer",
+                  " Frontend Developer.",
+                  " Software Developer.",
+                ]}
+              />
+            </span>
+          </h2>
+<div style={{marginTop: "20px"}}>
+
+
         <p>
           Setup a custom counter hook with increment, decrement, reset, setValue
           functions with a valid UI and Implement a combination of states with a
@@ -17,8 +45,8 @@ function Home() {
           page for the custom hook, useReducer, 404, and a page to test error
           boundary and good SEO.
         </p>
-        <h4>Ekunola John Oluwatosin</h4>
-        <h5>Frontend Engineering </h5>
+</div>
+     
       </section>
     </>
   );
