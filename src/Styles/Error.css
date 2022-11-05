@@ -1,0 +1,38 @@
+a {
+  margin: 20px;
+  display: block;
+  font-size: 1.3rem;
+  color: white;
+}
+
+button {
+  margin: 20px;
+}
+
+nav {
+  display: flex;
+  background-color: #282c34;
+  color: white;
+  justify-content: flex-end;
+}
+.test-error {
+  display: flex;
+  justify-content: center;
+}
+.test-error input {
+  width: 60%;
+  margin: 20px ;
+  padding: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.counter {
+  margin: 20px 0;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.counter input {
+  padding: 15px;
+}

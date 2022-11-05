@@ -1,0 +1,66 @@
+.counter{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.counter-container {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.add-btn{
+    background-color: #6568f4;
+    color: #fff;
+    padding: 2px;
+}
+.add-btn:hover{
+    background-color: #fff;
+    color: #6568f4;
+    border: 1px solid #6568f4;
+
+}
+.dlt-btn{
+    background-color: red;
+    color: #fff;
+    padding: 2px;
+}
+.dlt-btn:hover{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+
+}
+.rst-btn{
+
+    padding: 1rem 3rem;
+
+    background-color: #282c34;
+    color: #fff;
+}
+
+.rst-btn:hover{
+   
+    border: 1px solid black;
+    background-color: #fff;
+    color: black;
+}
+.counter-container h2 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+.counter-container input {
+    padding: .5rem;
+}
+
+.counter-container button {
+    margin: 20px;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
