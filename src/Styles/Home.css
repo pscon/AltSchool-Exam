@@ -6,6 +6,12 @@
     height: 80vh;
     /* width: 100vw; */
 }
+.h3header{
+    font-size: 15px;
+    font-weight: 900;
+    color: black;
+    letter-spacing: 1px;
+}
 
 .homePage h3 {
     font-size: 30px;
