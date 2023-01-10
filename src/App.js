@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./Components/Footer";
 import NoMatch from "./Pages/NoMatch";
 import Counter from "./Pages/Counter";
+import Contact from "./Pages/Contact";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/error" element={<Error />} />
           <Route path="/counter" element={<Counter />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NoMatch />} />
         </Routes>
         <Footer />

@@ -16,6 +16,7 @@ function Footer() {
               <span className="footer-span">
                 {" "}
                 <a
+                  style={{ color: "white" }}
                   href="https://www.linkedin.com/in/ekunola-paul-42712b1aa/"
                   rel="noreferrer"
                 >
