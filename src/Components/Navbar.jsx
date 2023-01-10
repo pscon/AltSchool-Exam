@@ -10,7 +10,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="navbar">
+    <div className="navbar" style={{ overflow: "hidden" }}>
       <div className="logo">
         <h1>
           {" "}
